@@ -1,0 +1,5 @@
+<% @users.each do |user| %>
+  <%= user.email %>
+  <%= user.posts.count %>
+  <br>
+<% end %>
